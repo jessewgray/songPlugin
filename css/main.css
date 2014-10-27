@@ -51,26 +51,62 @@ audio {
 	font-size: 20px;
 	line-height: 2em;
 	position: relative;	
+/*	padding-top: 10%;
+*/
 	
+}
+
+.menu {
+/*	border: solid red;
+*/	position: relative;
+
+}
+
+.menu ul {
+	padding: 1px;
+	display: inline-block;
+	color: white;
+	position: relative;
+	left: 65%;
+	
+}
+.menu ul a {
+	color: white;
 
 
+
+}
+
+.menu ul li {
+	float: left;
+	padding-right: 40px;
+	list-style-type: none;
+
+
+}
+
+.menu a li:hover {
+	text-decoration: underline;
 }
 
 .firstDivContent {
 	width: 90%;
 	height: 80%;
-	margin: 0 auto;
+	margin: 0% auto;
 	background-color: lightgrey;
 	opacity: 0.8;
 	padding: 1px;
+/*	border: solid red;
+*/
+
 
 }
 
 .firstDivContent h1 {
 	color: black;
 	text-align: center;
-	border: solid black;
-	top: 20%;	
+/*	border: solid black;
+*/	top: 20%;	
 
 
 }
@@ -86,8 +122,8 @@ audio {
 
 .firstDivContent p:hover {
 	color: black;
-	border: solid red;
-}
+/*	border: solid red;
+*/}
 
 .divTwo {
 	height: 100vh;
@@ -97,16 +133,42 @@ audio {
 	padding: 1px;
 }
 
-.divTwo h2 {
+.divTwoContent {
+	width: 90%;
+	height: 20%;
+	margin: 0 auto;
+/*	border: solid red;
+*/}
 
+.divTwo h2 {
+	margin-top: 40px;
+	padding-right: 20px;
+	display: inline-block;
+	float: left;
+
+
+}
+
+.divTwo h3 {
+	margin-top: 40px;
+	display: inline-block;
+	float: left;
+	color: lightgrey;
+}
+
+.divTwo h3:hover {
+	text-decoration: underline;
+	color: grey;
 }
 
 .bandOne {
 	width: 90%;
 	height: 80%;
 	margin: 0 auto;
-	border: solid red;
-	position: relative;
+/*	border: solid red;
+*/	position: relative;
+	
+
 }
 
 .divThree {
@@ -118,6 +180,34 @@ audio {
 	color: white;
 }
 
+.divThreeContent {
+	width: 90%;
+	height: 20%;
+	margin: 0 auto;
+/*	border: solid red;
+*/}
+
+
+.divThree h2 {
+	margin-top: 40px;
+	padding-right: 20px;
+	display: inline-block;
+	float: left;
+
+}
+
+.divThree h3 {
+	margin-top: 40px;
+	display: inline-block;
+	float: left;
+	color: lightgrey;
+}
+
+.divThree h3:hover {
+	text-decoration: underline;
+	color: grey;
+}
+
 .divFour {
 	height: 100vh;
 	background: url('pictures/divFour.png');
@@ -127,6 +217,34 @@ audio {
 
 }
 
+.divFourContent {
+	width: 90%;
+	height: 20%;
+	margin: 0 auto;
+/*	border: solid red;
+*/}
+
+.divFour h3 {
+	text-align: none;
+	display: inline-block;
+	color: lightgrey;
+
+}
+
+.divFour h3:hover {
+	text-decoration: underline;
+	color: grey;
+
+}
+
 .divFour h2 {
 	margin-top: 40px;
 }
+
+.divFour a h3 {
+	position: relative;
+	top: 15em;
+	left: 45%;
+	text-align: center;
+/*	background-color: blue;
+*/}

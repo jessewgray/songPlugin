@@ -16,12 +16,22 @@
 		<audio id="secondSong" data-secondSong="songs/cantStandMeNow.mp3"></audio>
 		<audio id="thirdSong" data-thirdSong="songs/wayOut.mp3"></audio>
 
-		<audio id="playSong" controls autoplay src="" ></audio>
+		<audio id="playSong" controls autoplay src=""></audio>
 	
 
 	
 
-		<div class="firstDiv">
+		<div class="firstDiv" id="topOfPage">
+			<div class="menu">
+			
+				<ul id="menuItems">
+					<a href="#playFirstSong"><li>Band One</li></a>
+					<a href="#playSecondSong"><li>Band Two</li></a>
+					<a href="#playThirdSong"><li>Band Three</li></a>
+				</ul>	
+
+
+			</div> <!-- menu -->
 
 			<div class="firstDivContent">	
 
@@ -32,36 +42,51 @@
 			</div> <!-- firstDivContent -->
 		
 
-		</div>
+		</div> <!-- firstDiv -->
 	
 	
 	
 		<div class="divTwo" id="playFirstSong">
-			<h2>band one</h2>
+			<div class="divTwoContent">
+				<h2>band one</h2>
+				<a href="#playSecondSong"><h3>next</h3></a>
+			</div>	
+			
+			
+
 			<div class="bandOne">
 
 			</div> <!-- bandOne -->
 			
 
-		</div> <!-- divOne -->
+		</div> <!-- divTwo -->
 
 		<div class="divThree" id="playSecondSong">
-			<h2>band two</h2>
+			<div class="divThreeContent">
+				<h2>band two</h2>
+				<a href="#playThirdSong"><h3>next</h3></a>
+			</div>	
 
 			<div class="bandTwo">
 
-			</div>
+			</div> <!-- bandTwo -->
 
 		
-
-		</div> <!-- divTwo -->
-
-		<div class="divFour" id="playThirdSong">
-		<h2>band three</h2>
-		
-
 
 		</div> <!-- divThree -->
+
+		<div class="divFour" id="playThirdSong">
+			<div class="divFourContent">
+				<h2>band three</h2>
+			</div>	
+
+			
+
+
+		
+
+			<a href="#topOfPage"><h3>back to top</h3></a>
+		</div> <!-- divFour -->
 
 
 	</div> <!-- container -->
